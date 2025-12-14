@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Penjualan Kamera</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Aplikasi Penjualan Kamera</h1>
+
+
+<div class="form">
+<input type="text" id="nama" placeholder="Nama Kamera">
+<input type="number" id="harga" placeholder="Harga">
+<input type="number" id="jumlah" placeholder="Jumlah">
+<button onclick="tambahData()">Tambah</button>
+</div>
+
+
+<table>
+<thead>
+<tr>
+<th>Nama Kamera</th>
+<th>Harga</th>
+<th>Jumlah</th>
+<th>Total</th>
+<th>Aksi</th>
+</tr>
+</thead>
+<tbody id="data"></tbody>
+</table>
+
+
+<h2>Total Penjualan: Rp <span id="grandTotal">0</span></h2>
+
+
+<script src="script.js"></script>
+</body>
+</html>
